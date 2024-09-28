@@ -10,14 +10,13 @@ const Carousel = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Adjust as needed
+    slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
-    centerPadding: "0px", // Adjust to fit your design
-    arrows: true, // For the left and right navigation arrows
+    centerPadding: "0px", 
+    arrows: true, 
   };
 
-  // Array of images or items to display in the carousel
   const images = [
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKNIzsa6dGOfAWIsMh-QhYq80_BDwnYHqQZA&s', 
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqJPoc_xx5u5tHB1L_2DNoU266SROx5vID5eIrgDPeCVqLUgS3oqTzBttolcZI1fk1pYg&usqp=CAU', 
