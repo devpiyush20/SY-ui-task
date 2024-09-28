@@ -1,0 +1,22 @@
+.carousel-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel-title {
+  font-size: 24px;
+  color: #6f3fd8; /* Match the purple color of your text */
+  margin-bottom: 20px;
+}
+
+.carousel-item {
+  padding: 10px;
+}
+
+.carousel-image {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

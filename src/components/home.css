@@ -1,0 +1,327 @@
+.homeBody{
+    
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+   
+}
+.section1{
+    display: flex;
+    padding-inline: 100px ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.subsection1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.brandImage{
+    width: 600px;
+
+}
+.waveImage{
+    width: 80px;
+}
+.paragraphSubsection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+}
+.inputAndSarchBox {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 70%;
+  }
+  
+  .selectBox {
+    position: relative;
+    width: 250px;
+  }
+  
+  select {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color:white;
+    border: 2px solid #a174f4;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+    appearance: auto;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #874fff;
+  }
+  
+  select::after {
+    content: '▼';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  option {
+    padding: 8px;
+    background-color: #fff;
+  }
+
+  .subsection2 img{
+    width: 500px;
+
+  }
+  
+  .subsectionHeading {
+    background: linear-gradient(to right, #b56ff2, #79777d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+
+  .section2{
+    background: #f5f5f5;
+    padding: 100px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    
+    
+
+  }
+  .headingSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+
+  }
+
+  .headingText h1{
+    background: linear-gradient(to right, #b56ff2, #452374);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: bold;
+
+  }
+  .headingText h4{
+    color: gray;
+    font-weight: 500;
+
+  }
+  .ViewButton{
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 100px;
+
+  }
+  .section3{
+    padding: 100px;
+    background-color: #f6efeb;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .headingText3{
+    color: #9f5004;
+
+  }
+  .catogriesCard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 50px;
+   
+  }
+  .section4{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+  }
+
+
+  .leftSec4{
+    background:#f6efeb;
+    height: 40%;
+    width: 40%;
+    padding: 40px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+ justify-content: space-between;
+    border-radius: 8px;
+    place-items: center;
+  }
+  .leftBox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    font-size: 20px;
+   
+  }
+  .readMore h4{
+    color: #b56ff2;
+   
+    width: 130px;
+    border-bottom: 1px solid #b56ff2;;
+
+  }
+  .leftSec4 img{
+    width: 120px;
+    height: 50px;
+    
+    
+  }
+  .rightsec4{
+    height: 40%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+  }
+  .rsSub{
+    display: flex;
+   
+    place-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+    color: gray;
+    font-weight: 200;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  .rsSub img{
+    height: 80px;
+    width: 80px;
+  }
+
+  .section5{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    flex-wrap: wrap;
+  }
+  .topsec5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+
+  }
+  .ts5l{
+    display: flex;
+    flex-direction: column;
+    height: 590px;
+    width: 600px;
+    background: #000;
+   
+   align-items: center;
+   text-align: center;
+    background: linear-gradient(180deg, #6a00f4 0%, #440099 100%);
+    border-radius: 15px;
+    padding: 20px;
+    row-gap: 51px;
+  }
+  .ts5l img{
+    height: 200px;
+    width: 300px;
+    border-radius: 40px 40px 0px 00px;
+    margin-bottom:-10px;
+    
+  }
+  .ts5l h4{
+    color: greenyellow;
+    font-size: 20px;
+  }
+  .ts5l h1{
+    color: white;
+    font-size: 50px;
+  }
+  .ts5l h2{
+    color: whitesmoke
+  }
+
+  .bottomsec5{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    flex-wrap: wrap;
+   margin-left: 58px;
+    border: 1px solid ;
+    border-image: linear-gradient(to right, #124aa4 0%, #d53aa1 100%) 1;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px
+  }
+  .leftbs5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    width: 40%;
+  }
+  .bottomsec5 img{
+    width: 500px;
+    height: 230px;
+  }
+
+  .section7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    padding: 100px;
+    row-gap: 10px;
+  }
+  .section7 h1{
+     font-size: 50px;
+  }
+  .section7 h6{
+    font-size: 20px;
+    color: gray;
+  }
+  .lasttext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    gap: 40px;
+
+  }
+  .section6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    padding: 100px
+
+  }
