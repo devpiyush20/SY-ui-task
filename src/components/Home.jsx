@@ -11,7 +11,7 @@ import randamLadki from "../assets/img/randamLadki.png";
 import ranverbaba from "../assets/img/ranveerbaba.png";
 import { BsArrowUpRight } from "react-icons/bs";
 import arrow from "../assets/img/arrow.png";
-import AvatarSingle from "../assets/img/Avatarsingle.jpeg";
+import AvatarSingle from "../assets/img/AvatarSingle.jpeg";
 import multiAvatar from "../assets/img/multiAvatar.jpeg";
 import { FaArrowRightLong } from "react-icons/fa6";
 import stall from "../assets/img/stall.jpeg";
